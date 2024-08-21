@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap'); 
+*{ 
+Margin:0%;
+Padding:0%;
+    pointer-events: none;
+    Box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
+}
+html,body{
+Width:100%;
+Height:100%;
+}
+header{
+    position: absolute;
+    z-index: 999;
+    height: 4vw;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    border-bottom:1px  rgba(255, 255, 255, 0.4) solid;
+}
+nav{
+    width: 94%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-logo{
+    height: 5vw;
+    width: 9vw;
+}
+.nav-logo img{
+    width: 90%;
+    height: 100%;
+    object-fit: contain;
+}
+.links{
+    width: 5vw;
+}
+.links button{
+    width: 2.5vw;
+    height: 2.5vw;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(142, 139, 139, 0.4);
+    color: white;
+    font-size: 1.2vw;
+    transition: all ease .3s;
+}
+.links button:hover{
+    width: 2.6vw;
+    height: 2.6vw;
+    background-color: rgba(142, 139, 139, 0.5);
+}
+.main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+.grad{
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background:radial-gradient(ellipse at center, rgba(0,0,0,0) 65%, rgba(0,0,0,0.7));
+}
+.parallex{
+    position: absolute;
+    transition: all 0.45s cubic-bezier(.32,.56,.37,.86);
+}
+.bg-img{
+    z-index: 1;
+    top: calc(50% - 25vw);
+    left: calc(50% + 1vw);
+    transform: translate(-50%,-50%);
+}
+.fog_7{
+    width: 98.958vw;
+    z-index: 2;
+    top: calc(50% - 5.208vw );
+    left: calc(50% + 15.625vw);
+    transform: translate(-50%,-50%);
+}
+.mountain_10{
+    width: 46.458vw;
+    z-index: 3;
+    top: calc(50% + 3.593vw);
+    left: calc(50% + 11.979vw);
+    transform: translate(-50%,-50%);
+}
+.fog_6{
+    width: 100vw;
+    z-index: 4;
+    top: calc(50% + 10.677vw );
+    left: calc(50% + 10.4166vw);
+    transform: translate(-50%,-50%);
+}
+.mountain_9{
+    width: 28.125vw;
+    z-index: 5;
+    top: calc(50% + 5.885vw );
+    left: calc(50% - 26.406vw);
+    transform: translate(-50%,-50%);
+}
+.mountain_8{
+    width: 58.333vw;
+    z-index: 6;
+    top: calc(50% + 9.687vw );
+    left: calc(50% - 10.5208vw);
+    transform: translate(-50%,-50%);
+}
+.fog_5{
+    width: 23.437vw;
+    z-index: 7;
+    top: calc(50% + 8.333vw );
+    left: calc(50% + 1.041vw);
+    transform: translate(-50%,-50%);
+}
+.mountain_7{
+    width: 43.645vw;
+    z-index: 8;
+    top: calc(50% + 8.489vw);
+    left: calc(50% + 15.885);
+    transform: translate(-50%,-50%);
+}
+.main-text{
+    position: absolute;
+    z-index: 9;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    text-align: center;
+    margin-top: -7vw;
+    text-transform: uppercase;
+}
+.main-text h2{
+    font-weight: 100;
+    font-size: 3vw;
+    text-transform: capitalize;
+}
+.main-text h1{
+    font-weight: 900;
+    font-size: 12vw;
+    margin-top: -2vw;
+}
+.mountain_6{
+    width: 26.458vw;
+    z-index: 10;
+    top: calc(50% + 3.2815vw);
+    left: calc(50% + 30.729vw);
+    transform: translate(-50%,-50%);
+}
+.fog_4{
+    width: 30.729vw;
+    z-index: 11;
+    top: calc(50% + 1.1979vw );
+    left: calc(50% - 3.125vw);
+    transform: translate(-50%,-50%);
+}
+.mountain_5{
+    width: 40.885vw;
+    z-index: 12;
+    top: calc(50% + 13.020vw );
+    left: calc(50% + 6.770vw);
+    transform: translate(-50%,-50%);
+}
+.fog_3{
+    width: 86.979vw;
+    z-index: 13;
+    top: calc(50% + 3.645vw );
+    left: calc(50% - 0.781vw);
+    transform: translate(-50%,-50%);
+} 
+.mountain_4{
+    width: 44.010vw;
+    z-index: 14;
+    top: calc(50% + 10.052vw );
+    left: calc(50% - 21.093vw);
+    transform: translate(-50%,-50%);
+}
+.mountain_3{
+    width: 44.010vw;
+    z-index: 15;
+    top: calc(50% + 10.052vw );
+    right: -40%;
+    transform: translate(0%,-50%);
+}
+.fog_2{
+    width: 86.979vw;
+    z-index: 16;
+    top: calc(50% + 3.645vw );
+    left: calc(50% - 0.781vw);
+    transform: translate(-50%,-50%);
+} 
+.mountain_2{
+    width: 38.802vw;
+    z-index: 17;
+    top: calc(50% + 10.052vw );
+    left: calc(50% + 21.093vw);
+    transform: translate(-50%,-50%);
+}
+.mountain_1{
+    width: 40.885vw;
+    z-index: 18;
+    top: calc(50% + 10.052vw );
+    left: 8%;
+    transform: translate(-50%,-50%);
+}
+.sun_rays{
+    position: absolute;
+    z-index: 19;
+    top: 0;
+    right: 0;
+    width: 30.989vw;
+}
+.black_shadow{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 20;
+    width: 100%;
+}
+.fog_1{
+    z-index: 21;
+    width:100%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+    top: calc(100% - 18.489vw);
+}
